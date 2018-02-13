@@ -1,10 +1,10 @@
-require './lib/engine'
+require './lib/plane_engine'
 
 class Plane
   attr_reader :engines
 
   def initialize
-    @engines = Engine.new
+    @engines = PlaneEngine.new
   end
 
   def body_weight

@@ -1,4 +1,4 @@
-class Engine
+class PlaneEngine
   attr_reader :core_weight, :propeller_weight
 
   def initialize
